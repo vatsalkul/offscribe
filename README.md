@@ -45,7 +45,7 @@ source transcriber/bin/activate  # On macOS/Linux
 
 2. Start the application:
 ```bash
-python main.py
+python3 main.py
 ```
 
 3. **Grant accessibility permissions** when prompted:
