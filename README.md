@@ -1,38 +1,76 @@
-# 🎧 OffScribe
 
-**OffScribe** is a powerful, privacy-first **offline speech-to-text** app for macOS. Built using **MLX Whisper** and optimized for **Apple Silicon**, it transcribes audio directly into any text field — with zero internet required.
+# 🎙️ OffScribe
+
+### *Powerful Offline Speech-to-Text for macOS*
+
+<p align="center">
+  <em>Transform your voice into text instantly with complete privacy</em>
+</p>
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
+
+[![GitHub stars](https://img.shields.io/github/stars/vatsalkul/offscribe?style=for-the-badge)](https://github.com/yourusername/offscribe/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/vatsalkul/offscribe?style=for-the-badge)](https://github.com/yourusername/offscribe/network)
+[![GitHub issues](https://img.shields.io/github/issues/vatsalkul/offscribe?style=for-the-badge)](https://github.com/yourusername/offscribe/issues)
+
+</div>
 
 ---
 
 ## ✨ Features
 
-- 🎙️ **Offline Transcription**  
-  Runs entirely on-device using MLX Whisper — no cloud, no compromise.
+<table>
+<tr>
+<td>
 
-- ⌨️ **Global Hotkey**  
-  Double-press **Left Ctrl** to start/stop recording instantly.
+**🔒 Complete Privacy**
+- 100% offline processing
+- No internet required
+- Your audio never leaves your device
 
-- 🔊 **Audio Feedback**  
-  System sounds notify you when recording starts, stops, or finishes.
+</td>
+<td>
 
-- 📋 **Auto-Paste**  
-  The transcribed text magically appears in the active text field.
+**⚡ Lightning Fast**
+- Optimized for Apple Silicon
+- MLX Whisper integration
+- Real-time transcription
 
-- 🔒 **Privacy-First**  
-  No internet access needed. Your audio never leaves your Mac.
+</td>
+</tr>
+<tr>
+<td>
 
-- 🚀 **Optimized for Apple Silicon**  
-  Harnesses Apple's MLX framework for blazing-fast performance.
+**🎯 Smart Integration**
+- Global hotkey support
+- Auto-paste to any app
+- Works with VS Code, Terminal, etc.
+
+</td>
+<td>
+
+**🔊 Audio Feedback**
+- Clear sound cues
+- Recording status indicators
+- Error notifications
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 💻 Requirements
+## 🚀 Quick Start
 
-- macOS 13+  
-- Python 3.8+  
-- Apple Silicon Mac (recommended)
+### Prerequisites
 
----
+- 🍎 **macOS 13+** (Apple Silicon recommended)
+- 🐍 **Python 3.8+**
+- 🎤 **Microphone access**
+
 
 ## 📦 Installation
 
