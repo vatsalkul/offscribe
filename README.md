@@ -1,39 +1,50 @@
-# OffScribe
+# 🎧 OffScribe
 
-A powerful offline speech-to-text application that uses MLX Whisper to transcribe audio directly into any text field. Built for macOS with a focus on privacy and ease of use.
+**OffScribe** is a powerful, privacy-first **offline speech-to-text** app for macOS. Built using **MLX Whisper** and optimized for **Apple Silicon**, it transcribes audio directly into any text field — with zero internet required.
 
-## Features
+---
 
-- 🎙️ **Offline Transcription**: All processing happens locally using MLX Whisper
-- ⌨️ **Global Hotkey**: Double-click Left Ctrl to start/stop recording
-- 🔊 **Audio Feedback**: System sounds indicate recording start, stop, and transcription status
-- 📋 **Auto-Paste**: Transcribed text is automatically inserted into the active text field
-- 🔒 **Privacy-First**: No internet connection required, your audio never leaves your device
-- 🚀 **Fast**: Leverages Apple's MLX framework for optimized performance on Apple Silicon
+## ✨ Features
 
-## Requirements
+- 🎙️ **Offline Transcription**  
+  Runs entirely on-device using MLX Whisper — no cloud, no compromise.
 
-- macOS (tested on macOS 13+)
-- Python 3.8 or higher
-- Apple Silicon Mac recommended for best performance
+- ⌨️ **Global Hotkey**  
+  Double-press **Left Ctrl** to start/stop recording instantly.
 
-## Installation
+- 🔊 **Audio Feedback**  
+  System sounds notify you when recording starts, stops, or finishes.
 
-1. Clone the repository:
+- 📋 **Auto-Paste**  
+  The transcribed text magically appears in the active text field.
+
+- 🔒 **Privacy-First**  
+  No internet access needed. Your audio never leaves your Mac.
+
+- 🚀 **Optimized for Apple Silicon**  
+  Harnesses Apple's MLX framework for blazing-fast performance.
+
+---
+
+## 💻 Requirements
+
+- macOS 13+  
+- Python 3.8+  
+- Apple Silicon Mac (recommended)
+
+---
+
+## 📦 Installation
+
 ```bash
 git clone https://github.com/yourusername/offscribe.git
 cd offscribe
-```
 
-2. Create and activate a virtual environment:
-```bash
 python3 -m venv transcriber
 source transcriber/bin/activate  # On macOS/Linux
-```
 
-3. Install dependencies:
-```bash
 pip install -r requirements.txt
+
 ```
 
 ## Usage
